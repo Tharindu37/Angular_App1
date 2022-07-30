@@ -1,0 +1,20 @@
+<div class="main-wrap">
+  <h3 class="header-text">Customer Management</h3>
+  <hr>
+
+  <div class="content row">
+    <div class="col-3">
+      <ul class="list-group">
+        <li routerLink="/customer/save" routerLinkActive="active" class="list-group-item">Save Customer</li>
+        <li routerLink="/customer/update" routerLinkActive="active" class="list-group-item">Update Customer</li>
+        <li routerLink="/customer/delete" routerLinkActive="active" class="list-group-item">Delete Customer</li>
+        <li routerLink="/customer/get" routerLinkActive="active" class="list-group-item">Get Customer</li>
+        <li routerLink="/customer/get-all" routerLinkActive="active" class="list-group-item">Get All Customer</li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>
